@@ -1,0 +1,12 @@
+name: build kernel
+on: push
+
+jobs:
+  build-kernel:
+    name: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: build
+        run: bash bootstrap.sh

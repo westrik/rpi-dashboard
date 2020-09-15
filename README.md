@@ -1,4 +1,8 @@
 # rpi-dashboard
 
-- [raspberrypi docs - building kernel](https://www.raspberrypi.org/documentation/linux/kernel/building.md)
-- [pi-gen](https://github.com/RPi-Distro/pi-gen)
+## Provision
+
+- flash SD card with [Raspberry Pi OS (32-bit) Lite](https://www.raspberrypi.org/downloads/raspberry-pi-os/)
+- add `ssh` and `wpa_supplicant.conf` to `/boot` on SD card
+- run `curl -sSL https://get.pimoroni.com/hyperpixel4 | bash` and reboot
+- (...) install rpi-dashboard service

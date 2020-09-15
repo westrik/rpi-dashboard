@@ -6,3 +6,7 @@
 - add `ssh` and `wpa_supplicant.conf` to `/boot` on SD card
 - run `curl -sSL https://get.pimoroni.com/hyperpixel4 | bash` and reboot
 - (...) install rpi-dashboard service
+
+## TODO
+
+- [ ] cross-compile from x86 to `arm-unknown-linux-gnueabihf`
